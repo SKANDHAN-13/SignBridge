@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+.claude/
+
+# Training data and models
+patient_to_doctor/training_data.csv
+patient_to_doctor/gesture_model.pkl
+*.pkl
+
+# Logs
+*.log
+
+# API Keys (if someone accidentally commits them)
+# Note: config.py is included but users should change keys before committing

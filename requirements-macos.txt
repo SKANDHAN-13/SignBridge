@@ -1,0 +1,12 @@
+mediapipe
+opencv-python
+scikit-learn
+openai
+elevenlabs
+openai-whisper
+sounddevice
+numpy
+pvporcupine
+flask
+# RPi.GPIO - skip on macOS, only for Rubik Pi
+# pygame - skip on macOS or install SDL first (brew install sdl2 sdl2_image sdl2_mixer sdl2_ttf)

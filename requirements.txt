@@ -1,0 +1,12 @@
+mediapipe
+opencv-python
+scikit-learn
+openai
+elevenlabs
+openai-whisper
+sounddevice
+numpy
+pvporcupine
+RPi.GPIO
+flask
+pygame
