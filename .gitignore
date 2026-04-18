@@ -27,3 +27,4 @@ patient_to_doctor/gesture_model.pkl
 
 # API Keys (if someone accidentally commits them)
 # Note: config.py is included but users should change keys before committing
+SignBridge/
