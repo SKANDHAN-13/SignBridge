@@ -20,7 +20,7 @@ import state
 try:
     import pvporcupine
     PORCUPINE_AVAILABLE = True
-except ImportError:
+except (ImportError, NotImplementedError, Exception):
     PORCUPINE_AVAILABLE = False
     print("WARNING: pvporcupine not available, using Whisper fallback")
 

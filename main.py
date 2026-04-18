@@ -172,17 +172,6 @@ def main():
     state.state["system_active"] = True
 
     try:
-        # Load gesture model
-        print("\nLoading gesture recognition model...")
-        try:
-            recognizer = gesture_recognition.GestureRecognizer()
-            recognizer.release()
-            print("✓ Gesture model loaded")
-        except Exception as e:
-            print(f"ERROR: Failed to load gesture model: {e}")
-            print("Please run train_classifier.py first")
-            return
-
         # Initialize TTS
         print("\nInitializing TTS...")
         tts_output.init_tts()
