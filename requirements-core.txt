@@ -1,0 +1,11 @@
+mediapipe
+opencv-python
+scikit-learn
+openai
+elevenlabs
+openai-whisper
+sounddevice
+numpy
+pvporcupine
+flask
+pygame
